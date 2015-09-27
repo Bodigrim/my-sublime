@@ -1,0 +1,34 @@
+[
+	{ "keys": ["super+l"], "command": "save_all" },
+	{ "keys": ["super+r"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+  { "keys": ["super+t"], "command": "replace_next" },
+  { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+  { "keys": ["super+d"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["super+d"], "command": "toggle_comment", "args": { "block": true } },
+
+  {
+    "keys": ["super+ctrl+l"],
+    "command": "repl_open",
+    "args": {
+      "type": "subprocess",
+      "encoding": "utf8",
+      "cmd": ["sbcl", "-i"],
+      "cwd": "$file_path",
+      "external_id": "lisp",
+      "syntax": "Packages/Lisp/Lisp.tmLanguage"
+    }
+  },
+
+  {
+    "keys": ["super+ctrl+h"],
+    "command": "repl_open",
+    "args": {
+      "type": "subprocess",
+      "encoding": "utf8",
+      "cmd": ["ghci"],
+      "cwd": "$file_path",
+      "external_id": "haskell",
+      "syntax": "Packages/SublimeHaskell/Syntaxes/HaskellRepl.tmLanguage"
+    }
+  }
+]

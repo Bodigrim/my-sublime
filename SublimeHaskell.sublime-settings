@@ -1,0 +1,6 @@
+{
+	"enable_hdevtools": false,
+	"auto_run_tests": false,
+	"auto_build_mode": "typecheck",
+	"add_to_PATH": ["/usr/local/bin", "/Users/macbookair/.local/bin"]
+}
