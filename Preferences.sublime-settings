@@ -16,7 +16,7 @@
 		"*.jar",
 		"*.zip"
 	],
-	"color_scheme": "Packages/User/Monokai1.tmTheme",
+	"color_scheme": "Packages/User/Monokai.tmTheme",
 	"enable_tab_scrolling": false,
 	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
@@ -43,7 +43,14 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.sublime-workspace"
+		"*.sublime-workspace",
+		"*.pdf",
+		"*.fls",
+		"*.fdb_latexmk",
+		"*.out",
+		"*.blg",
+		"*.bcf",
+		"*.run.xml"
 	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
