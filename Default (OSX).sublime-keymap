@@ -4,7 +4,6 @@
   { "keys": ["super+t"], "command": "replace_next" },
   { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
   { "keys": ["super+d"], "command": "toggle_comment", "args": { "block": false } },
-  { "keys": ["super+d"], "command": "toggle_comment", "args": { "block": true } },
 
   {
     "keys": ["super+ctrl+l"],

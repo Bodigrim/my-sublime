@@ -6,12 +6,15 @@
 	"installed_packages":
 	[
 		"BracketHighlighter",
+		"DashDoc",
 		"Diffy",
 		"Git",
 		"GitGutter",
+		"Markdown Extended",
 		"Package Control",
 		"PackageResourceViewer",
 		"SublimeHaskell",
-		"SublimeREPL"
+		"SublimeREPL",
+		"Twig"
 	]
 }
