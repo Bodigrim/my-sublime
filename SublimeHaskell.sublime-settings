@@ -1,6 +1,7 @@
 {
-	"enable_hdevtools": false,
-	"auto_run_tests": false,
-	"auto_build_mode": "typecheck",
-	"add_to_PATH": ["/usr/local/bin", "/Users/macbookair/.local/bin"]
+  "enable_hdevtools": false,
+  "enable_ghc_mod": false,
+  "auto_run_tests": false,
+  "auto_build_mode": "typecheck",
+  "lint_check_fly_idle": 15
 }
