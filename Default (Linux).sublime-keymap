@@ -1,0 +1,7 @@
+[
+  { "keys": ["ctrl+l"], "command": "save_all" },
+  { "keys": ["ctrl+r"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+  { "keys": ["ctrl+t"], "command": "replace_next" },
+  { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+  { "keys": ["ctrl+d"], "command": "toggle_comment", "args": { "block": false } }
+]
