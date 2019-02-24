@@ -51,7 +51,8 @@
 		"*.out",
 		"*.blg",
 		"*.bcf",
-		"*.run.xml"
+		"*.run.xml",
+		"*.hi"
 	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
