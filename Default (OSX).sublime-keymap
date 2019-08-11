@@ -6,28 +6,8 @@
   { "keys": ["super+d"], "command": "toggle_comment", "args": { "block": false } },
 
   {
-    "keys": ["super+ctrl+l"],
-    "command": "repl_open",
-    "args": {
-      "type": "subprocess",
-      "encoding": "utf8",
-      "cmd": ["sbcl", "-i"],
-      "cwd": "$file_path",
-      "external_id": "lisp",
-      "syntax": "Packages/Lisp/Lisp.tmLanguage"
-    }
-  },
-
-  {
     "keys": ["super+ctrl+h"],
-    "command": "repl_open",
-    "args": {
-      "type": "subprocess",
-      "encoding": "utf8",
-      "cmd": ["ghci"],
-      "cwd": "$file_path",
-      "external_id": "haskell",
-      "syntax": "Packages/SublimeHaskell/Syntaxes/HaskellRepl.tmLanguage"
-    }
+    "command": "filter_through_command",
+    "args": { "cmdline": "brittany" }
   }
 ]
