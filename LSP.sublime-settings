@@ -1,0 +1,25 @@
+{
+	"auto_show_diagnostics_panel_level": 4,
+	"clients":
+	{
+		"haskell-ide-engine":
+		{
+			"command":
+			[
+				"~/.local/bin/haskell-language-server",
+				"--lsp"
+			],
+			"enabled": true,
+			"languageId": "haskell",
+			"scopes":
+			[
+				"source.haskell"
+			],
+			"syntaxes":
+			[
+				"Packages/Haskell/Haskell.sublime-syntax"
+			]
+		}
+	},
+	"show_diagnostics_severity_level": 4
+}
