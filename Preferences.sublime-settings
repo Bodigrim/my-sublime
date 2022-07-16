@@ -52,7 +52,11 @@
 		"*.blg",
 		"*.bcf",
 		"*.run.xml",
-		"*.hi"
+		"*.hi",
+		".tasty-rerun-log",
+		"*.p_o",
+		"*.o",
+		"*.dyn_o"
 	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
@@ -62,7 +66,9 @@
 		".hg",
 		"CVS",
 		".stack-work",
-		"dist"
+		"dist",
+		"dist-newstyle",
+		"benchmarks/text-test-data"
 	],
 	"font_face": "Fira Code",
 	"font_size": 12,
@@ -78,5 +84,5 @@
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": true,
 }

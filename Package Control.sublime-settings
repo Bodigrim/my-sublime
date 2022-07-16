@@ -6,17 +6,15 @@
 	"installed_packages":
 	[
 		"BracketHighlighter",
-		"DashDoc",
 		"Diffy",
 		"External Command",
-		"Idris Syntax",
-		"LaTeX-cwl",
+		"JSON Reindent",
 		"LaTeXing",
 		"LSP",
 		"Markdown Extended",
+		"MarkdownTOC",
 		"Package Control",
-		"PackageResourceViewer",
 		"SublimeREPL",
-		"Twig"
-	]
+		"Terminus",
+	],
 }
