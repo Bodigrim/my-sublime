@@ -5,16 +5,19 @@
 	],
 	"installed_packages":
 	[
+		"Advanced CSV",
 		"BracketHighlighter",
 		"Diffy",
 		"External Command",
-		"JSON Reindent",
+		"Indent XML",
 		"LaTeXing",
 		"LSP",
 		"Markdown Extended",
 		"MarkdownTOC",
 		"Package Control",
+		"PowerShell",
 		"SublimeREPL",
 		"Terminus",
+		"TOML",
 	],
 }

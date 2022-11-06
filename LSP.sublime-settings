@@ -1,14 +1,16 @@
 {
-	"auto_show_diagnostics_panel_level": 4,
 	"clients":
 	{
 		"haskell-ide-engine":
 		{
 			"command":
 			[
-				"~/.local/bin/haskell-language-server",
-				"--lsp"
+				"/Users/andrew/.ghcup/bin/haskell-language-server-wrapper", "--lsp"
 			],
+			"settings": {
+				"haskell.plugin.ghcide-completions.config.snippetsOn": false,
+				"haskell.formattingProvider": "fourmolu"
+			},
 			"enabled": true,
 			"languageId": "haskell",
 			"scopes":
@@ -18,8 +20,7 @@
 			"syntaxes":
 			[
 				"Packages/Haskell/Haskell.sublime-syntax"
-			]
-		}
+			],
+		},
 	},
-	"show_diagnostics_severity_level": 4
 }
