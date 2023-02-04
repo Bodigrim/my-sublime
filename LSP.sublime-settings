@@ -7,9 +7,13 @@
 			[
 				"/Users/andrew/.ghcup/bin/haskell-language-server-wrapper", "--lsp"
 			],
+	    "env":
+		    {
+		      "PATH": "/Users/andrew/.ghcup/bin"
+		    },
 			"settings": {
 				"haskell.plugin.ghcide-completions.config.snippetsOn": false,
-				"haskell.formattingProvider": "fourmolu"
+				"haskell.formattingProvider": "fourmolu",
 			},
 			"enabled": true,
 			"languageId": "haskell",
