@@ -56,7 +56,9 @@
 		".tasty-rerun-log",
 		"*.p_o",
 		"*.o",
-		"*.dyn_o"
+		"*.dyn_o",
+		"*.p_hi",
+		"*.dyn_hi",
 	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
@@ -68,14 +70,15 @@
 		".stack-work",
 		"dist",
 		"dist-newstyle",
-		"benchmarks/text-test-data"
+		"benchmarks/text-test-data",
+		"_build"
 	],
 	"font_face": "Fira Code",
 	"font_size": 12,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"open_files_in_new_window": false,
 	"shift_tab_unindent": true,
