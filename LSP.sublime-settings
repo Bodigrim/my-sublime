@@ -14,6 +14,7 @@
 			"settings": {
 				"haskell.plugin.ghcide-completions.config.snippetsOn": false,
 				"haskell.formattingProvider": "fourmolu",
+				"haskell.plugin.stan.globalOn": false
 			},
 			"enabled": true,
 			"languageId": "haskell",

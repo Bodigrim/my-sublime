@@ -7,11 +7,12 @@
 	[
 		"Advanced CSV",
 		"BracketHighlighter",
-		"Diffy",
+		"Diffable",
 		"External Command",
 		"Indent XML",
 		"LaTeXing",
 		"LSP",
+		"LSP-file-watcher-chokidar",
 		"Markdown Extended",
 		"MarkdownTOC",
 		"Package Control",
